@@ -1,0 +1,11 @@
+\BOOKMARK [2][]{Outline0.1}{Brief Bio}{}% 1
+\BOOKMARK [2][]{Outline0.2}{Introduction}{}% 2
+\BOOKMARK [3][]{Outline0.2.1.7}{Motivation}{Outline0.2}% 3
+\BOOKMARK [3][]{Outline0.2.2.13}{Software Transactional Memory in Haskell}{Outline0.2}% 4
+\BOOKMARK [3][]{Outline0.2.3.20}{Transactional Memory Correctness}{Outline0.2}% 5
+\BOOKMARK [2][]{Outline0.3}{Formal semantics for transactional memory}{}% 6
+\BOOKMARK [3][]{Outline0.3.1.24}{Core language definition}{Outline0.3}% 7
+\BOOKMARK [3][]{Outline0.3.2.27}{Definitions and notations used}{Outline0.3}% 8
+\BOOKMARK [2][]{Outline0.4}{TL2 semantics}{}% 9
+\BOOKMARK [2][]{Outline0.5}{Checking Opacity}{}% 10
+\BOOKMARK [2][]{Outline0.6}{Conclusions}{}% 11

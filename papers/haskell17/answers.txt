@@ -1,0 +1,19 @@
+* Explain why using propety based testing is better than using
+previous approachs to verify STM properties. OK
+
+* Remove references for Graham Hutton work, but focusing on
+what this work differs and include. OK
+
+* Explain that our semantics is full small step, which is a
+difference when consider Harris and Peyton Jones ; Lu and Hutton work.
+State that express orElse or retry using a small step semantics is hard, due to
+the need of correctly present orElse. + ou -
+
+* Explain traces in semantics. OK
+
+* Include code coverage analysis for ensuring results with Quickcheck.
+
+* Describe STM correctness right from beginning and explain why
+chose opacity and markability.
+
+

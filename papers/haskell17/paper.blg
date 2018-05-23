@@ -1,0 +1,85 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: references.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--require articleno with numpages field in Baugh2008
+Warning--require articleno with numpages field in Claessen00
+Warning--empty publisher in cohen2007
+Warning--empty address in cohen2007
+Warning--empty address in CohenPZ08
+Warning--require articleno with numpages field in Dalessandro2011
+Warning--require articleno with numpages field in DeMoura2008
+Warning--require articleno with numpages field in Dice06
+Warning--require articleno with numpages field in Doherty2009
+Warning--require articleno with numpages field in Gill2007
+Warning--require articleno with numpages field in Guerraoui2008a
+Warning--require articleno with numpages field in Guerraoui2008
+Warning--empty address in Guerraoui2010
+Warning--require articleno with numpages field in Haring2012
+Warning--empty publisher in Harmanci2009
+Warning--empty address in Harmanci2009
+Warning--page numbers missing in both pages and numpages fields in Harmanci2009
+Warning--require articleno with numpages field in Harris05
+Warning--require articleno with numpages field in Herlihy2006
+Warning--require articleno with numpages field in Herlihy2003
+Warning--require articleno with numpages field in Herlihy1993
+Warning--empty address in Hu08
+Warning--page numbers missing in both pages and numpages fields in Hu08
+Warning--require articleno with numpages field in Huet97
+Warning--require articleno with numpages field in Imbs2009
+Warning--require articleno with numpages field in Koskinen2010
+Warning--require articleno with numpages field in Le2016
+Warning--require articleno with numpages field in Lesani2012
+Warning--require articleno with numpages field in Lesani2013
+Warning--empty address in LesaniP14
+Warning--require articleno with numpages field in Moore2008
+Warning--require articleno with numpages field in Norell2009
+Warning--require articleno with numpages field in Owre1992
+Warning--require articleno with numpages field in Pankratius2011
+Warning--require articleno with numpages field in Shavit1995
+You've used 38 entries,
+            5551 wiz_defined-function locations,
+            1666 strings with 25813 characters,
+and the built_in function-call counts, 46088 in all, are:
+= -- 5731
+> -- 1772
+< -- 1
++ -- 558
+- -- 966
+* -- 3697
+:= -- 5002
+add.period$ -- 194
+call.type$ -- 38
+change.case$ -- 273
+chr.to.int$ -- 37
+cite$ -- 73
+duplicate$ -- 3376
+empty$ -- 2405
+format.name$ -- 751
+if$ -- 10404
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 153
+newline$ -- 421
+num.names$ -- 309
+pop$ -- 1180
+preamble$ -- 1
+purify$ -- 462
+quote$ -- 0
+skip$ -- 970
+stack$ -- 0
+substring$ -- 4538
+swap$ -- 372
+text.length$ -- 699
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 520
+warning$ -- 35
+while$ -- 326
+width$ -- 0
+write$ -- 822
+(There were 35 warnings)

@@ -1,0 +1,345 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Herlihy1993}
+Herlihy M, Moss JEB.
+\newblock Transactional Memory: Architectural Support for Lock-free Data
+  Structures.
+\newblock \emph{SIGARCH Comput. Archit. News}, 1993.
+\newblock \textbf{21}(2):289--300.
+\newblock \doi{10.1145/173682.165164}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/173682.165164}.
+
+\bibitem{Shavit1995}
+Shavit N, Touitou D.
+\newblock Software Transactional Memory.
+\newblock In: Proceedings of the Fourteenth Annual ACM Symposium on Principles
+  of Distributed Computing, PODC '95. ACM, New York, NY, USA.
+\newblock ISBN 0-89791-710-3, 1995 pp. 204--213.
+\newblock \doi{10.1145/224964.224987}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/224964.224987}.
+
+\bibitem{Harris05}
+Harris T, Marlow S, Peyton-Jones S, Herlihy M.
+\newblock Composable Memory Transactions.
+\newblock In: Proceedings of the Tenth ACM SIGPLAN Symposium on Principles and
+  Practice of Parallel Programming, PPoPP '05. ACM, New York, NY, USA.
+\newblock ISBN 1-59593-080-9, 2005 pp. 48--60.
+\newblock \doi{10.1145/1065944.1065952}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1065944.1065952}.
+
+\bibitem{Pankratius2011}
+Pankratius V, Adl-Tabatabai AR.
+\newblock A Study of Transactional Memory vs. Locks in Practice.
+\newblock In: Proceedings of the Twenty-third Annual ACM Symposium on
+  Parallelism in Algorithms and Architectures, SPAA '11. ACM, New York, NY,
+  USA.
+\newblock ISBN 978-1-4503-0743-7, 2011 pp. 43--52.
+\newblock \doi{10.1145/1989493.1989500}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1989493.1989500}.
+
+\bibitem{Herlihy2003}
+Herlihy M, Luchangco V, Moir M, Scherer WN III.
+\newblock Software Transactional Memory for Dynamic-sized Data Structures.
+\newblock In: Proceedings of the Twenty-second Annual Symposium on Principles
+  of Distributed Computing, PODC '03. ACM, New York, NY, USA.
+\newblock ISBN 1-58113-708-7, 2003 pp. 92--101.
+\newblock \doi{10.1145/872035.872048}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/872035.872048}.
+
+\bibitem{Herlihy2006}
+Herlihy M, Luchangco V, Moir M.
+\newblock A Flexible Framework for Implementing Software Transactional Memory.
+\newblock \emph{SIGPLAN Not.}, 2006.
+\newblock \textbf{41}(10):253--262.
+\newblock \doi{10.1145/1167515.1167495}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1167515.1167495}.
+
+\bibitem{Dice06}
+Dice D, Shalev O, Shavit N.
+\newblock Transactional Locking II.
+\newblock In: Proceedings of the 20th International Conference on Distributed
+  Computing, DISC'06. Springer-Verlag, Berlin, Heidelberg.
+\newblock ISBN 3-540-44624-9, 978-3-540-44624-8, 2006 pp. 194--208.
+\newblock \doi{10.1007/11864219_14}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/11864219_14}.
+
+\bibitem{Hammond2004}
+Hammond L, Wong V, Chen M, Carlstrom BD, Davis JD, Hertzberg B, Prabhu MK,
+  Wijaya H, Kozyrakis C, Olukotun K.
+\newblock Transactional Memory Coherence and Consistency.
+\newblock \emph{SIGARCH Comput. Archit. News}, 2004.
+\newblock \textbf{32}(2):102--.
+\newblock \doi{10.1145/1028176.1006711}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1028176.1006711}.
+
+\bibitem{Baugh2008}
+Baugh L, Neelakantam N, Zilles C.
+\newblock Using Hardware Memory Protection to Build a High-Performance,
+  Strongly-Atomic Hybrid Transactional Memory.
+\newblock \emph{SIGARCH Comput. Archit. News}, 2008.
+\newblock \textbf{36}(3):115--126.
+\newblock \doi{10.1145/1394608.1382132}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1394608.1382132}.
+
+\bibitem{Dalessandro2011}
+Dalessandro L, Carouge F, White S, Lev Y, Moir M, Scott ML, Spear MF.
+\newblock Hybrid NOrec: A Case Study in the Effectiveness of Best Effort
+  Hardware Transactional Memory.
+\newblock \emph{SIGPLAN Not.}, 2011.
+\newblock \textbf{46}(3):39--52.
+\newblock \doi{10.1145/1961296.1950373}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1961296.1950373}.
+
+\bibitem{TSX}
+Intel.
+\newblock Intel Architecture Instruction Set Extensions Programming Reference.
+\newblock Technical Report 319433-014, Intel, 2012.
+\newblock
+  \urlprefix\url{http://download-software.intel.com/sites/default/files/319433-014.pdf}.
+
+\bibitem{Haring2012}
+Haring R, Ohmacht M, Fox T, Gschwind M, Satterfield D, Sugavanam K, Coteus P,
+  Heidelberger P, Blumrich M, Wisniewski R, gara a, Chiu G, Boyle P, Chist N,
+  Kim C.
+\newblock The IBM Blue Gene/Q Compute Chip.
+\newblock \emph{IEEE Micro}, 2012.
+\newblock \textbf{32}(2):48--60.
+\newblock \doi{10.1109/MM.2011.108}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1109/MM.2011.108}.
+
+\bibitem{Guerraoui2008}
+Guerraoui R, Kapalka M.
+\newblock On the Correctness of Transactional Memory.
+\newblock In: Proceedings of the 13th ACM SIGPLAN Symposium on Principles and
+  Practice of Parallel Programming, PPoPP '08. ACM, New York, NY, USA.
+\newblock ISBN 978-1-59593-795-7, 2008 pp. 175--184.
+\newblock \doi{10.1145/1345206.1345233}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1345206.1345233}.
+
+\bibitem{Doherty2009}
+Doherty S, Groves L, Luchangco V, Moir M.
+\newblock Towards Formally Specifying and Verifying Transactional Memory.
+\newblock \emph{Electron. Notes Theor. Comput. Sci.}, 2009.
+\newblock \textbf{259}:245--261.
+\newblock \doi{10.1016/j.entcs.2010.01.001}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/j.entcs.2010.01.001}.
+
+\bibitem{Imbs2009}
+Imbs D, de~Mendivil JR, Raynal M.
+\newblock Brief Announcement: Virtual World Consistency: A New Condition for
+  STM Systems.
+\newblock In: Proceedings of the 28th ACM Symposium on Principles of
+  Distributed Computing, PODC '09. ACM, New York, NY, USA.
+\newblock ISBN 978-1-60558-396-9, 2009 pp. 280--281.
+\newblock \doi{10.1145/1582716.1582764}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1582716.1582764}.
+
+\bibitem{LesaniP14}
+Lesani M, Palsberg J.
+\newblock Decomposing Opacity.
+\newblock In: Kuhn F (ed.), Distributed Computing - 28th International
+  Symposium, {DISC} 2014, Austin, TX, USA, October 12-15, 2014. Proceedings,
+  volume 8784 of \emph{Lecture Notes in Computer Science}. Springer.
+\newblock ISBN 978-3-662-45173-1, 2014 pp. 391--405.
+\newblock \doi{10.1007/978-3-662-45174-8_27}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-662-45174-8_27}.
+
+\bibitem{Lesani2012}
+Lesani M, Luchangco V, Moir M.
+\newblock A Framework for Formally Verifying Software Transactional Memory
+  Algorithms.
+\newblock In: Proceedings of the 23rd International Conference on Concurrency
+  Theory, CONCUR'12. Springer-Verlag, Berlin, Heidelberg.
+\newblock ISBN 978-3-642-32939-5, 2012 pp. 516--530.
+\newblock \doi{10.1007/978-3-642-32940-1_36}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-642-32940-1_36}.
+
+\bibitem{CohenPZ08}
+Cohen A, Pnueli A, Zuck LD.
+\newblock Mechanical Verification of Transactional Memories with
+  Non-transactional Memory Accesses.
+\newblock In: Gupta A, Malik S (eds.), Computer Aided Verification, 20th
+  International Conference, {CAV} 2008, Princeton, NJ, USA, July 7-14, 2008,
+  Proceedings, volume 5123 of \emph{Lecture Notes in Computer Science}.
+  Springer.
+\newblock ISBN 978-3-540-70543-7, 2008 pp. 121--134.
+\newblock \doi{10.1007/978-3-540-70545-1_13}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-540-70545-1_13}.
+
+\bibitem{cohen2007}
+Cohen A, O'Leary JW, Pnueli A, Tuttle MR, Zuck LD.
+\newblock Verifying Correctness of Transactional Memories.
+\newblock In: Proceedings of the 7th International Conference on Formal Methods
+  in Computer-Aided Design (FMCAD), pp. 37--44. 2007.
+
+\bibitem{Guerraoui2008a}
+Guerraoui R, Henzinger TA, Jobstmann B, Singh V.
+\newblock Model Checking Transactional Memories.
+\newblock \emph{SIGPLAN Not.}, 2008.
+\newblock \textbf{43}(6):372--382.
+\newblock \doi{10.1145/1379022.1375626}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1379022.1375626}.
+
+\bibitem{Lesani2013}
+Lesani M, Palsberg J.
+\newblock Proving Non-opacity.
+\newblock In: Proceedings of the 27th International Symposium on Distributed
+  Computing - Volume 8205, DISC 2013. Springer-Verlag New York, Inc., New York,
+  NY, USA.
+\newblock ISBN 978-3-642-41526-5, 2013 pp. 106--120.
+\newblock \doi{10.1007/978-3-642-41527-2_8}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1007/978-3-642-41527-2_8}.
+
+\bibitem{DeMoura2008}
+De~Moura L, Bj{\o}rner N.
+\newblock Z3: An Efficient SMT Solver.
+\newblock In: Proceedings of the Theory and Practice of Software, 14th
+  International Conference on Tools and Algorithms for the Construction and
+  Analysis of Systems, TACAS'08/ETAPS'08. Springer-Verlag, Berlin, Heidelberg.
+\newblock ISBN 3-540-78799-2, 978-3-540-78799-0, 2008 pp. 337--340.
+\newblock \urlprefix\url{http://dl.acm.org/citation.cfm?id=1792734.1792766}.
+
+\bibitem{Le2016}
+Le M, Yates R, Fluet M.
+\newblock Revisiting Software Transactional Memory in Haskell.
+\newblock In: Proceedings of the 9th International Symposium on Haskell,
+  Haskell 2016. ACM, New York, NY, USA.
+\newblock ISBN 978-1-4503-4434-0, 2016 pp. 105--113.
+\newblock \doi{10.1145/2976002.2976020}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/2976002.2976020}.
+
+\bibitem{Moore2008}
+Moore KF, Grossman D.
+\newblock High-level Small-step Operational Semantics for Transactions.
+\newblock In: Proceedings of the 35th Annual ACM SIGPLAN-SIGACT Symposium on
+  Principles of Programming Languages, POPL '08. ACM, New York, NY, USA.
+\newblock ISBN 978-1-59593-689-9, 2008 pp. 51--62.
+\newblock \doi{10.1145/1328438.1328448}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1328438.1328448}.
+
+\bibitem{Koskinen2010}
+Koskinen E, Parkinson M, Herlihy M.
+\newblock Coarse-grained Transactions.
+\newblock In: Proceedings of the 37th Annual ACM SIGPLAN-SIGACT Symposium on
+  Principles of Programming Languages, POPL '10. ACM, New York, NY, USA.
+\newblock ISBN 978-1-60558-479-9, 2010 pp. 19--30.
+\newblock \doi{10.1145/1706299.1706304}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1706299.1706304}.
+
+\bibitem{Abadi2011}
+Abadi M, Birrell A, Harris T, Isard M.
+\newblock Semantics of Transactional Memory and Automatic Mutual Exclusion.
+\newblock \emph{ACM Trans. Program. Lang. Syst.}, 2011.
+\newblock \textbf{33}(1):2:1--2:50.
+\newblock \doi{10.1145/1889997.1889999}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1889997.1889999}.
+
+\bibitem{Hu08}
+Hu L, Hutton G.
+\newblock {Towards a Verified Implementation of Software Transactional Memory}.
+\newblock In: Achten P, Koopman P, Morazan M (eds.), {Trends in Functional
+  Programming volume 9}. Intellect, 2009 Selected papers from the Ninth
+  Symposium on Trends in Functional Programming, Nijmegen, The Netherlands, May
+  2008.
+
+\bibitem{Schmidt2013}
+Schmidt-Schau\ss M, Sabel D.
+\newblock Correctness of an STM Haskell Implementation.
+\newblock In: Proceedings of the 18th ACM SIGPLAN International Conference on
+  Functional Programming, ICFP '13. ACM, New York, NY, USA.
+\newblock ISBN 978-1-4503-2326-0, 2013 pp. 161--172.
+\newblock \doi{10.1145/2500365.2500585}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/2500365.2500585}.
+
+\bibitem{Claessen00}
+Claessen K, Hughes J.
+\newblock QuickCheck: A Lightweight Tool for Random Testing of Haskell
+  Programs.
+\newblock In: Proceedings of the Fifth ACM SIGPLAN International Conference on
+  Functional Programming, ICFP '00. ACM, New York, NY, USA.
+\newblock ISBN 1-58113-202-6, 2000 pp. 268--279.
+\newblock \doi{10.1145/351240.351266}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/351240.351266}.
+
+\bibitem{Hritcu2013}
+Hritcu C, Hughes J, Pierce BC, Spector-Zabusky A, Vytiniotis D, Azevedo~de
+  Amorim A, Lampropoulos L.
+\newblock Testing Noninterference, Quickly.
+\newblock In: Proceedings of the 18th ACM SIGPLAN International Conference on
+  Functional Programming, ICFP '13. ACM, New York, NY, USA.
+\newblock ISBN 978-1-4503-2326-0, 2013 pp. 455--468.
+\newblock \doi{10.1145/2500365.2500574}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/2500365.2500574}.
+
+\bibitem{stm-rep}
+Ribeiro R, Du~Bois A.
+\newblock A Property Based Testing Approach for Software Transactional Memory
+  Safety --- On-line repository.
+\newblock https://github.com/rodrigogribeiro/stm-model, 2017.
+
+\bibitem{Guerraoui2010}
+Guerraoui R, Kapalka M.
+\newblock Principles of Transactional Memory.
+\newblock Synthesis Lectures on Distributed Computing Theory. Morgan-Claypool
+  Publishers, 2010.
+\newblock \urlprefix\url{http://dx.doi.org/10.2200/S00253ED1V01Y201009DCT004}.
+
+\bibitem{Gill2007}
+Gill A, Runciman C.
+\newblock Haskell Program Coverage.
+\newblock In: Proceedings of the ACM SIGPLAN Workshop on Haskell Workshop,
+  Haskell '07. ACM, New York, NY, USA.
+\newblock ISBN 978-1-59593-674-5, 2007 pp. 1--12.
+\newblock \doi{10.1145/1291201.1291203}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1291201.1291203}.
+
+\bibitem{Liblit06}
+Liblit B.
+\newblock An Operational Semantics for LogTM --- Technical Report 1571., 2006.
+\newblock
+  \urlprefix\url{http://research.cs.wisc.edu/multifacet/papers/tr1571_logtm_semantics.pdf}.
+
+\bibitem{Moore2008a}
+Moore KF, Grossman D.
+\newblock High-level Small-step Operational Semantics for Transactions
+  (technical companion), 2008.
+\newblock
+  \urlprefix\url{http://homes.cs.washington.edu/~kfm/atomsfamily_proofs.pdf}.
+
+\bibitem{Owre1992}
+Owre S, Rushby JM, Shankar N.
+\newblock PVS: A Prototype Verification System.
+\newblock In: Proceedings of the 11th International Conference on Automated
+  Deduction: Automated Deduction, CADE-11. Springer-Verlag, London, UK, UK.
+\newblock ISBN 3-540-55602-8, 1992 pp. 748--752.
+\newblock \urlprefix\url{http://dl.acm.org/citation.cfm?id=648230.752639}.
+
+\bibitem{Lamport2002}
+Lamport L.
+\newblock Specifying Systems: The TLA+ Language and Tools for Hardware and
+  Software Engineers.
+\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 2002.
+\newblock ISBN 032114306X.
+
+\bibitem{Harmanci2009}
+Harmanci D, Felber P, Gramoli V, Fetzer C.
+\newblock {TMUNIT}: Testing Transactional Memories.
+\newblock In: TRANSACT~'09: 4th Workshop on Transactional Computing. 2009 .
+
+\bibitem{Norell2009}
+Norell U.
+\newblock Dependently Typed Programming in Agda.
+\newblock In: Proceedings of the 4th International Workshop on Types in
+  Language Design and Implementation, TLDI '09. ACM, New York, NY, USA.
+\newblock ISBN 978-1-60558-420-1, 2009 pp. 1--2.
+\newblock \doi{10.1145/1481861.1481862}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1481861.1481862}.
+
+\end{thebibliography}

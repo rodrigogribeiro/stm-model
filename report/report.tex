@@ -1,0 +1,172 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage[portuges]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\usepackage{graphicx,hyperref}
+\usepackage{multicol,lipsum}
+
+\begin{document}
+%\maketitle
+
+\begin{titlepage}
+    \begin{center}
+    
+    %\begin{figure}[!ht]
+    %\centering
+    %\includegraphics[width=2cm]{c:/ufba.jpg}
+    %\end{figure}
+
+        \Huge{Universidade Federal de Pelotas}\\
+        \large{Departamento de Computação}\\ 
+        \large{Programa de Pós-graduação em Ciência da Computação}\\ 
+        \vspace{15pt}
+        \vspace{95pt}
+        \textbf{\LARGE{Relatório Final do Bolsista}}\\
+        %\title{Especificação e Verificação Formal de Propriedades de Memórias Transacionais}
+        \vspace{3,5cm}
+    \end{center}
+    
+    \begin{center}
+        %\begin{tabbing}
+            Bolsista: Dr. Rodrigo Geraldo Ribeiro\\
+            Supervisor: Dr. André Rauber Du Bois\\
+         % \end{tabbing}
+        \end{center}
+    \vspace{1cm}
+    
+    \begin{center}
+        \vspace{\fill}
+             Pelotas\\
+             2017
+     \end{center}
+\end{titlepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% % % % % % % % %FOLHA DE ROSTO % % % % % % % % % %
+
+\begin{titlepage}
+    \begin{center}
+    
+        \Huge{Universidade Federal de Pelotas}\\
+        \large{Departamento de Computação}\\ 
+        \large{Programa de Pós-graduação em Ciência da Computação}\\ 
+\vspace{15pt}
+        
+        \vspace{85pt}
+        
+        \textbf{\LARGE{Relatório Final do Bolsista}}
+        \title{\large{Especificação e Verificação Formal de Propriedades de Memórias Transacionais}}
+    \end{center}
+\vspace{1,5cm}
+    
+    \begin{flushright}
+
+   \begin{list}{}{
+      \setlength{\leftmargin}{4.5cm}
+      \setlength{\rightmargin}{0cm}
+      \setlength{\labelwidth}{0pt}
+      \setlength{\labelsep}{\leftmargin}}
+
+      \item Relatório Final de Pós-doutoramento.
+
+      \begin{list}{}{
+      \setlength{\leftmargin}{0cm}
+      \setlength{\rightmargin}{0cm}
+      \setlength{\labelwidth}{0pt}
+      \setlength{\labelsep}{\leftmargin}}
+
+            \item Bolsista: Dr. Rodrigo Geraldo Ribeiro\
+            \item Supervisor: Dr. André Rauber Du Bois\
+      \end{list}
+   \end{list}
+\end{flushright}
+\vspace{1cm}
+\begin{center}
+  \vspace{\fill}
+  01 de Setembro de 2017\\
+\end{center}
+\end{titlepage}
+\newpage
+% % % % % % % % % % % % % % % % % % % % % % % % % %
+\newpage
+\tableofcontents
+\thispagestyle{empty}
+
+\newpage
+\pagenumbering{arabic}
+% % % % % % % % % % % % % % % % % % % % % % % % % % %
+\section{Resumo}
+
+O uso de lógica formal em ciência da computação permite a especificação concisa
+de sistemas e a verificação de suas propriedades. Durante o estágio pós-doutoral
+o bolsista teve a oportunidade de aplicar lógica formal em problemas de
+diferentes domínios: especificação de semânticas para memórias transacionais,
+verificação formal de codificação binária para árvores de parsing e a formalização
+de uma semântica denotacional para uma linguagem de domínio específico para
+programação de padrões de bateria. Além do desenvolvimento dos trabalhos
+anteriores, o bolsista colaborou em trabalhos com pesquisadores da UFMG e UDESC
+no desenvolvimento de novos algoritmos para inferência de tipos para a linguagem
+Haskell e na formalização de um algoritmo para
+reconstrução de programas C incompletos. Os resultados obtidos em cada uma
+destas atividades é descrito nos artigos abaixo listados e incluídos como anexos:
+
+\begin{itemize}
+  \item A Property Based Testing Approach for Software Transactional Memory
+    Safety, a ser submetido para o periódico Science of Computer Programming.
+  \item Certified Bit-coded Regular Expression Parsing, aceito para publicação
+    no XXI Simpósio Brasileiro de Linguagens de Programação.
+  \item A Domain Specific Language For Drum Beat Programming, aceito para
+    publicação no XVI Simpósio Brasileiro de Computação Musical.
+  \item Inference of Static Semantics for Incomplete C Programs, aceito para
+    publicação no 45th ACM SIGPLAN Symposium on Principles of Programming
+    Languages.
+  \item Optional Type Classes for Haskell, em avaliação no periódico Science of
+    Computer Programming.
+  \item Type Inference for GADTs and Anti-unification, em avaliação no periódico
+    Science of Computer Programming.
+\end{itemize}
+
+Além dos trabalhos acima citados, o bolsista ministrou um curso de 12 horas
+entitulado ``Uma introdução ao assistente de provas Coq'' para
+alunos de graduação e pós-graduação em ciência da computação da UFPel. O
+material desenvolvido encontra-se disponível no seguinte endereço eletrônico:
+\begin{center}
+  \url{https://rodrigogribeiro.github.io/coqcourse/}
+\end{center}
+e participou da DeepSpec Summer School on verified algorithms de 13/08/2017 a
+29/08/2017 na Universidade da Pensilvânia, Filadélfia, Estados Unidos.
+
+\section{Conclusão e Trabalhos Futuros}
+
+Durante o estágio pós-doutoral o bolsista teve a oportunidade de aplicar lógica
+formal para a elaboração de trabalhos, envolvendo semântica de
+linguagens de programação e verificação formal, que resultaram na publicação de
+3 trabalhos em conferências, na submissão de 2 artigos para periódicos. 
+
+Possíveis trabalhos futuros envolvem:
+
+\begin{itemize}
+  \item Formalização, em um assistente de provas, da linguagem de domínio
+    específico HDrum, para programação de padrões de bateria. Atualmente, o
+    bolsista já formalizou parte da linguagem de domínio específico utilizando o
+    assistente de provas Coq.
+  \item Formalização, em um assistente de provas, do algoritmo utilizado para
+        reconstrução de programas C incompletos.
+  \item Finalizar e submeter o artigo sobre a aplicação de teste baseado em propriedades
+    para validar propriedades de segurança de memórias transacionais.
+
+\vspace{5cm}
+
+\begin{center}
+  \begin{tabular}{ccc}
+    Dr. Rodrigo Geraldo Ribeiro & \hspace{2cm} & Dr. André Rauber Du Bois \\
+    Bolsista                    &              & Supervisor
+  \end{tabular}
+\end{center}
+\newpage    
+\section*{Anexos}
+
+\end{itemize}
+\end{document}

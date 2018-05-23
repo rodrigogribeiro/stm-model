@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: paper.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: references.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--numpages field, but no articleno or eid field, in Baugh2008
+Warning--numpages field, but no articleno or eid field, in Claessen00
+Warning--empty publisher in cohen2007
+Warning--empty address in cohen2007
+Warning--empty address in CohenPZ08
+Warning--numpages field, but no articleno or eid field, in Dalessandro2011
+Warning--numpages field, but no articleno or eid field, in DeMoura2008
+Warning--numpages field, but no articleno or eid field, in Dice06
+Warning--numpages field, but no articleno or eid field, in Doherty2009
+Warning--numpages field, but no articleno or eid field, in Gill2007
+Warning--numpages field, but no articleno or eid field, in Guerraoui2008a
+Warning--numpages field, but no articleno or eid field, in Guerraoui2008
+Warning--empty address in Guerraoui2010
+Warning--numpages field, but no articleno or eid field, in Haring2012
+Warning--empty publisher in Harmanci2009
+Warning--empty address in Harmanci2009
+Warning--page numbers missing in both pages and numpages fields in Harmanci2009
+Warning--numpages field, but no articleno or eid field, in Harris05
+Warning--numpages field, but no articleno or eid field, in Herlihy2006
+Warning--numpages field, but no articleno or eid field, in Herlihy2003
+Warning--numpages field, but no articleno or eid field, in Herlihy1993
+Warning--empty address in Hu08
+Warning--page numbers missing in both pages and numpages fields in Hu08
+Warning--numpages field, but no articleno or eid field, in Imbs2009
+Warning--numpages field, but no articleno or eid field, in Le2016
+Warning--numpages field, but no articleno or eid field, in Lesani2012
+Warning--numpages field, but no articleno or eid field, in Lesani2013
+Warning--empty address in LesaniP14
+Warning--empty year in Loh2005
+Warning--numpages field, but no articleno or eid field, in Moore2008
+Warning--numpages field, but no articleno or eid field, in Norell2009
+Warning--numpages field, but no articleno or eid field, in Owre1992
+Warning--numpages field, but no articleno or eid field, in Pankratius2011
+Warning--numpages field, but no articleno or eid field, in Shavit1995
+You've used 38 entries,
+            5795 wiz_defined-function locations,
+            1684 strings with 25852 characters,
+and the built_in function-call counts, 51157 in all, are:
+= -- 6279
+> -- 1751
+< -- 1
++ -- 588
+- -- 984
+* -- 3896
+:= -- 5173
+add.period$ -- 195
+call.type$ -- 38
+change.case$ -- 272
+chr.to.int$ -- 37
+cite$ -- 72
+duplicate$ -- 4091
+empty$ -- 2859
+format.name$ -- 743
+if$ -- 11549
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 142
+newline$ -- 419
+num.names$ -- 309
+pop$ -- 1400
+preamble$ -- 1
+purify$ -- 605
+quote$ -- 0
+skip$ -- 1461
+stack$ -- 0
+substring$ -- 4981
+swap$ -- 425
+text.length$ -- 744
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 963
+warning$ -- 34
+while$ -- 322
+width$ -- 0
+write$ -- 819
+(There were 34 warnings)
